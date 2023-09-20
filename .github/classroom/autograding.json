@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-8-find-max-in-array.cpp",
+      "run": "./a.out",
+      "input": "5\r\n5\r\n3\r\n2\r\n1\r\n9\r\n",
+      "output": "Array: 5 3 2 1 9\r\nThe large 3rd element = 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW09/hw09-8-find-max-in-array.cpp",
+      "run": "./a.out",
+      "input": "8\r\n6\r\n7\r\n11\r\n13\r\n15\r\n49\r\n27\r\n18\r\n",
+      "output": "Array: 6 7 11 13 15 49 27 18\r\nThe large 3rd element = 18",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
